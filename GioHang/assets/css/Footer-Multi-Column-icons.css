@@ -1,0 +1,202 @@
+.bs-icon {
+  --bs-icon-size: .75rem;
+  display: flex;
+  flex-shrink: 0;
+  justify-content: center;
+  align-items: center;
+  font-size: var(--bs-icon-size);
+  width: calc(var(--bs-icon-size) * 2);
+  height: calc(var(--bs-icon-size) * 2);
+  color: var(--bs-primary);
+}
+
+.bs-icon-xs {
+  --bs-icon-size: 1rem;
+  width: calc(var(--bs-icon-size) * 1.5);
+  height: calc(var(--bs-icon-size) * 1.5);
+}
+
+.bs-icon-sm {
+  --bs-icon-size: 1rem;
+}
+
+.bs-icon-md {
+  --bs-icon-size: 1.5rem;
+}
+
+.bs-icon-lg {
+  --bs-icon-size: 2rem;
+}
+
+.bs-icon-xl {
+  --bs-icon-size: 2.5rem;
+}
+
+.bs-icon.bs-icon-primary {
+  color: var(--bs-white);
+  background: var(--bs-primary);
+}
+
+.bs-icon.bs-icon-primary-light {
+  color: var(--bs-primary);
+  background: rgba(var(--bs-primary-rgb), .2);
+}
+
+.bs-icon.bs-icon-semi-white {
+  color: var(--bs-primary);
+  background: rgba(255, 255, 255, .5);
+}
+
+.bs-icon.bs-icon-rounded {
+  border-radius: .5rem;
+}
+
+.bs-icon.bs-icon-circle {
+  border-radius: 50%;
+}
+
+#add {
+  background-color: blue;
+  color: white;
+  width: 150px;
+  margin-top: 30px;
+}
+
+#Checkout {
+  background-color: red;
+  color: white;
+  width: 150px;
+  margin-top: 30px;
+  margin-left: 20px;
+}
+
+div {
+}
+
+#detail {
+  margin-left: 80px;
+  width: 350px;
+}
+
+#Mota {
+  height: 250px;
+  width: 900px;
+}
+
+.breadcrumb {
+  align-items: center;
+}
+
+#main-img {
+  border: 1px solid silver;
+  text-align: center;
+}
+
+#space {
+  height: 50px;
+}
+
+img {
+}
+
+.sup-image {
+  border: 1px solid silver;
+}
+
+#sup-img {
+}
+
+#rating {
+  color: #e6e633;
+  font-weight: bolder;
+}
+
+#st1 {
+  width: 30px;
+}
+
+#stick {
+  background-color: #d2d237;
+  width: 100px;
+  height: 8px;
+  border-radius: 20px;
+  margin-bottom: 15px;
+}
+
+#ratinng-area {
+  height: 20px;
+  display: flex;
+  align-items: center;
+}
+
+#stick-2 {
+  background-color: silver;
+  width: 100px;
+  height: 8px;
+  border-radius: 20px;
+  margin-bottom: 15px;
+}
+
+#view-rating {
+  height: 65px;
+}
+
+header {
+}
+
+#nameuser {
+  height: 50px;
+}
+
+#comment {
+  border: 1px solid silver;
+  border-radius: 20px;
+}
+
+#rating-1 {
+  color: #e6e633;
+  font-weight: bolder;
+}
+
+#icon {
+  color: blue;
+  margin-left: 10px;
+}
+
+#action {
+  align-items: center;
+  width: 370px;
+  text-align: end;
+}
+
+#icon-1 {
+  color: blue;
+}
+
+#write-cm {
+  background-color: blue;
+  width: 200px;
+  color: white;
+  margin-right: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+#like-item {
+  text-align: center;
+}
+
+#item-like {
+  text-align: center;
+  align-items: center;
+}
+
+#name-item {
+  text-align: center;
+}
+
+#checkout {
+  background-color: red;
+  width: 400px;
+}
+

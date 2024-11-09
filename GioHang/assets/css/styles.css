@@ -1,0 +1,61 @@
+#cart-item-img {
+  height: 80px;
+  width: 100px;
+}
+
+#minimus {
+  width: 30px;
+  height: 30px;
+  color: black;
+  background: silver;
+}
+
+#quantity {
+  width: 30px;
+  text-align: center;
+}
+
+#item {
+  border: 1px solid silver;
+  border-radius: 20px;
+  margin-bottom: 10px;
+}
+
+#rating {
+  color: #e6e633;
+  font-weight: bolder;
+}
+
+#info {
+  background-color: silver;
+  height: 100px;
+  border-radius: 20px;
+  width: 500px;
+}
+
+#info-user {
+  align-items: center;
+}
+
+#t-input {
+  width: 440px;
+  margin-bottom: 20px;
+}
+
+#data {
+  margin-bottom: 15px;
+}
+
+#ghichu {
+  width: 440px;
+  height: 150px;
+}
+
+#muahang {
+  width: 250px;
+  color: white;
+  background-color: red;
+  font-weight: bold;
+  align-items: center;
+}
+
