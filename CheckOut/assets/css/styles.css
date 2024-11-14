@@ -59,3 +59,11 @@
   align-items: center;
 }
 
+.credit-card-info {
+  display: none;
+  margin-top: 15px;
+  border: 1px solid #ddd;
+  padding: 15px;
+  border-radius: 5px;
+  text-align: start;
+}

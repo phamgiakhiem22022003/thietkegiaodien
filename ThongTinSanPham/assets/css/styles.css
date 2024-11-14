@@ -1,5 +1,12 @@
-a {
+
+.review-section {
+    display: none; /* Ẩn mặc định */
+    margin-top: 20px;
+    border: 1px solid #ddd;
+    padding: 15px;
+    border-radius: 5px;
 }
+
 
 .btn {
   background-color: silver;

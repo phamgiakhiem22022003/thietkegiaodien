@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
-    <title>Cart</title>
+    <title>Thanh toán</title>
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/fonts/fontawesome-all.min.css">
     <link rel="stylesheet" href="assets/css/aos.min.css">
@@ -18,9 +18,9 @@
                 <ul class="navbar-nav ms-auto" style="padding-left: 0px;margin: 20px 20px;padding-right: 28px;">
                     <li class="nav-item" style="margin: 0px 20px;font-size: 20px;"><i class="far fa-bell" data-aos="fade-down" data-aos-duration="500" style="width: 4px;font-size: 20px;"></i></li>
                     <li class="nav-item" style="margin: 0px 20px;font-size: 20px;"><i class="far fa-user" data-aos="fade-down" data-aos-delay="450" style="width: 20px;"></i></li>
-                    <li class="nav-item"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-bag" data-aos="fade-down" data-aos-delay="500" style="font-size: 20px;">
-                            <path d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1m3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4zM2 5h12v9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1z"></path>
-                        </svg></li>
+                    <li class="nav-item"><a style="color: black;" href="../GioHang/index.html"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-bag" data-aos="fade-down" data-aos-delay="500" style="font-size: 20px;">
+                        <path d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1m3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4zM2 5h12v9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1z"></path>
+                    </svg></a></li>
                 </ul>
             </div>
         </div>
@@ -29,7 +29,7 @@
         <div class="container-fluid"><button data-bs-toggle="collapse" class="navbar-toggler" data-bs-target="#navcol-2"><span class="visually-hidden">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
             <div class="collapse navbar-collapse" id="navcol-2">
                 <ul class="navbar-nav mx-auto" id="Items_menu" style="font-size: 18px;font-family: 'Alike Angular', serif;">
-                    <li class="nav-item"><a class="nav-link active" data-aos="zoom-out" href="#">Home</a></li>
+                    <li class="nav-item"><a class="nav-link active" data-aos="zoom-out" href="../Home/index.html">Home</a></li>
                     <li class="nav-item"><a class="nav-link" data-aos="zoom-out" data-aos-duration="250" href="#">Giày</a></li>
                     <li class="nav-item"><a class="nav-link" data-aos="zoom-out" data-aos-duration="250" href="#">Dép</a></li>
                     <li class="nav-item"><a class="nav-link" data-aos="zoom-out" data-aos-duration="250" href="#">Phụ Kiện</a></li>
@@ -134,30 +134,70 @@
     <div class="container" id="info-user" align="center">
         <div id="info">
             <h2 align="center" style="margin-top: 28px;">Thông tin mua hàng</h2>
-            <div id="data" style="margin-left: 23px;margin-right: 29px;">
-                <p style="margin-top: -1px;margin-bottom: 7px;margin-left: 3px;margin-right: 370px;">Họ và tên</p><input type="text" id="t-input" style="margin-right: 259px;margin-left: 2px;padding-right: 0px;margin-top: -1px;margin-bottom: -9px;">
+            
+            <div id="data" style="margin-left: 23px; margin-right: 29px;">
+                <p style="margin-top: -1px; margin-bottom: 7px; margin-left: 3px; margin-right: 370px;">Họ và tên</p>
+                <input type="text" id="t-input" style="margin-right: 259px; margin-left: 2px; padding-right: 0px; margin-top: -1px; margin-bottom: -9px;">
             </div>
-            <div id="data" style="margin-left: 23px;margin-right: 29px;">
-                <p style="margin-top: -1px;margin-bottom: 7px;margin-left: 3px;margin-right: 336px;padding-right: 12px;">Số điện thoại</p><input type="text" id="t-input" style="margin-right: 259px;margin-left: 2px;padding-right: 0px;margin-top: -1px;margin-bottom: -9px;">
+            
+            <div id="data" style="margin-left: 23px; margin-right: 29px;">
+                <p style="margin-top: -1px; margin-bottom: 7px; margin-left: 3px; margin-right: 336px; padding-right: 12px;">Số điện thoại</p>
+                <input type="text" id="t-input" style="margin-right: 259px; margin-left: 2px; padding-right: 0px; margin-top: -1px; margin-bottom: -9px;">
             </div>
-            <div id="data" style="margin-left: 23px;margin-right: 29px;">
-                <p style="margin-top: -1px;margin-bottom: 7px;margin-left: 3px;margin-right: 113px;padding-right: 279px;">Địa chỉ</p><input type="text" id="t-input" style="margin-right: 259px;margin-left: 2px;padding-right: 0px;margin-top: -1px;margin-bottom: -9px;">
+            
+            <div id="data" style="margin-left: 23px; margin-right: 29px;">
+                <p style="margin-top: -1px; margin-bottom: 7px; margin-left: 3px; margin-right: 113px; padding-right: 279px;">Địa chỉ</p>
+                <input type="text" id="t-input" style="margin-right: 259px; margin-left: 2px; padding-right: 0px; margin-top: -1px; margin-bottom: -9px;">
             </div>
-            <div id="data" style="margin-left: 23px;margin-right: 29px;">
-                <p style="margin-top: -1px;margin-bottom: 7px;margin-left: 3px;padding-right: 263px;">Phương thức vận chuyển</p><input type="text" id="t-input" style="margin-right: 259px;margin-left: 2px;padding-right: 0px;margin-top: -1px;margin-bottom: -9px;">
+            
+            <div id="data" style="margin-left: 23px; margin-right: 29px;">
+                <p style="margin-top: -1px; margin-bottom: 7px; margin-left: 3px; padding-right: 263px;">Phương thức vận chuyển</p>
+                <select id="shipping-method" style="margin-right: 270px; padding-right: 0px; margin-top: -1px; margin-bottom: -9px;">
+                    <option value="standard">Giao hàng tiêu chuẩn</option>
+                    <option value="express">Giao hàng nhanh</option>
+                    <option value="pickup">Nhận tại cửa hàng</option>
+                </select>
             </div>
-            <div id="data" style="margin-left: 23px;margin-right: 29px;">
-                <p style="margin-top: -1px;margin-bottom: 7px;margin-left: 3px;padding-right: 270px;">Phương thức thanh toán</p><input type="text" id="t-input" style="margin-right: 259px;margin-left: 2px;padding-right: 0px;margin-top: -1px;margin-bottom: -9px;">
+            
+            <div id="data" style="margin-left: 23px; margin-right: 29px;">
+                <p style="margin-top: -1px; margin-bottom: 7px; margin-left: 3px; padding-right: 270px;">Phương thức thanh toán</p>
+                <select id="payment-method" style="margin-right: 259px; margin-left: 2px; padding-right: 0px; margin-top: -1px; margin-bottom: -9px;">
+                   
+                    <option value="cash">Tiền mặt</option>
+                    <option value="credit-card">Thẻ tín dụng</option>
+                    <option value="bank-transfer">Chuyển khoản ngân hàng</option>
+                </select>
             </div>
-            <div id="data" style="margin-left: 23px;margin-right: 29px;">
-                <p style="margin-top: -1px;margin-bottom: 7px;margin-left: 3px;padding-right: 355px;">Mã giảm giá</p><input type="text" id="t-input" style="margin-right: 259px;margin-left: 2px;padding-right: 0px;margin-top: -1px;margin-bottom: -9px;">
+            
+            <div id="data" style="margin-left: 23px; margin-right: 29px;">
+                <p style="margin-top: -1px; margin-bottom: 7px; margin-left: 3px; padding-right: 355px;">Mã giảm giá</p>
+                <input type="text" id="t-input" style="margin-right: 259px; margin-left: 2px; padding-right: 0px; margin-top: -1px; margin-bottom: -9px;">
             </div>
-            <div id="data" style="margin-left: 23px;margin-right: 29px;">
-                <p style="margin-top: -1px;margin-bottom: 7px;margin-left: 3px;padding-right: 386px;">Ghi chú</p><textarea id="ghichu"></textarea>
-                <div style="margin-left: 100px;"><button class="btn btn-primary" id="muahang" type="button" style="margin-top: 28px;margin-right: 96px;">Button</button></div>
+            
+            <div id="data" style="margin-left: 23px; margin-right: 29px;">
+                <p style="margin-top: -1px; margin-bottom: 7px; margin-left: 3px; padding-right: 386px;">Ghi chú</p>
+                <textarea id="ghichu"></textarea>
+                <div style="margin-left: 100px;">
+                    <a href="../CheckOut/index.html"><button class="btn btn-primary" id="muahang" type="button" style="margin-top: 28px; margin-right: 96px;">Thanh toán</button>
+                    </a></div>
             </div>
         </div>
+        <div id="credit-card-info" class="credit-card-info">
+            <h4>Thông tin thẻ tín dụng</h4>
+            <label for="card-number">Số thẻ:</label>
+            <input type="text" id="card-number" class="form-control" placeholder="Nhập số thẻ">
+    
+            <label for="card-name" class="mt-2">Tên chủ thẻ:</label>
+            <input type="text" id="card-name" class="form-control" placeholder="Nhập tên trên thẻ">
+    
+            <label for="expiry-date" class="mt-2">Ngày hết hạn:</label>
+            <input type="text" id="expiry-date" class="form-control" placeholder="MM/YY">
+    
+            <label for="cvv" class="mt-2">CVV:</label>
+            <input type="text" id="cvv" class="form-control" placeholder="3 chữ số ở mặt sau thẻ">
+        </div>
     </div>
+    
     <hr>
     <div class="container">
         <h2 id="like-item">Có thể bạn sẽ thích</h2>
@@ -223,6 +263,22 @@
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
     <script src="assets/js/aos.min.js"></script>
     <script src="assets/js/bs-init.js"></script>
+
+    <script>
+    // Lấy các phần tử
+    const paymentMethodSelect = document.getElementById('payment-method');
+    const creditCardInfo = document.getElementById('credit-card-info');
+
+    // Sự kiện khi thay đổi phương thức thanh toán
+    paymentMethodSelect.addEventListener('change', () => {
+        if (paymentMethodSelect.value === 'credit-card') {
+            creditCardInfo.style.display = 'block'; // Hiển thị khu vực nhập thẻ tín dụng
+        } else {
+            creditCardInfo.style.display = 'none'; // Ẩn khu vực nếu chọn phương thức khác
+        }
+    });
+</script>
+
 </body>
 
 </html>
